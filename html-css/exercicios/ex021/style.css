@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Radley:ital@0;1&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap'); */
+
+/* body{
+    background-image: linear-gradient(to left, #4C2A85, #6B7FD7, #F6F0ED);
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif, serif;
+    font-weight: 200;
+    font-style: normal;
+}  
+
+h1 {
+
+    color: black;
+    background-color: #F6F0ED;
+    text-align: center;
+    height: 35px;  (eu posso tirar a altura de forma que não vai afertar a visualização) 
+    width: 400px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f5901dde;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+
+    outline-width: 4px;
+    outline-style: dashed;
+    outline-color: black;
+}
+
+a {
+    background-color: #F6F0ED;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    margin: 1px;
+    padding: 4px;
+}
+
+a#footer {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: #F6F0ED;
+    font-size: 1.3em;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    padding: 4px;
+}
+
+h2 {
+    display: block;
+    float: right;
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #F6F0ED;
+    width: 450px;
+    height: 50px;
+
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+
+    border: solid;
+    border-color: #f5901dde;
+} */
+
+body {
+    background-image: linear-gradient(to left, #4C2A85, #6B7FD7, #F6F0ED);
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 10;
+    padding: 0;
+}
+
+/* Cabeçalho principal */
+h1 {
+    color: black;
+    background-color: #F6F0ED;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto 50px auto;
+
+    padding: 10px 0;
+    border: 3px solid #f5901dde;
+    outline: 4px dashed black;
+
+    /* Altura fixa geralmente é desnecessária aqui */
+}
+
+/* Links padrão */
+a {
+    background-color: #F6F0ED;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1px;
+    padding: 2px 6px;
+}
+
+/* Rodapé fixo */
+a#footer {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: #F6F0ED;
+    font-size: 1.3em;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+}
+
+/* Subtítulo */
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #F6F0ED;
+    width: 450px;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 10px 0;
+    border: 2px solid #f5901dde;
+    
+}

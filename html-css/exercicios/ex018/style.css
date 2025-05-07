@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Shot';
+    src: url('fonts/Long_Shot.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    /*
+        tipos de fontes ()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+
+}
+
+@font-face {
+    font-family: 'Celestial';
+    src: url(fonts/CelestialFree.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Anatomia';
+    src: url(fonts/Anatomia.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'One';
+    src: url(fonts/PirataOne-Regular.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+
+body {
+    background-image: linear-gradient(to top, #320E3B, #4C2A85, #6B7FD7, #F6F0ED);
+    background-attachment: fixed;
+    font-family: "Radley", serif;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Shot';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.9em;
+}
+
+h2#Astronomia {
+    font-family: 'Celestial';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+h2 {
+    font-family: 'Anatomia';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+a {
+    color: black;
+}

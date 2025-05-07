@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+/* Cores Analogas (azul e azul arroxeado)*/
+/* body{
+    background-color: rgb(138, 43, 226);
+    text-align: justify;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: blue;
+}
+p{
+    color: blue;
+}
+ul{
+    color: blue;
+} */
+
+
+
+/* Cores Complementares (azul arroxeado e violeta)*/
+/* body{
+    background-color: rgb(138, 43, 226);
+    text-align: justify;
+}
+h1{
+    color: violet;
+}
+h2{
+    color: violet;
+}
+p{
+    color: violet;
+}
+ul{
+    color: violet;
+} */
+
+
+
+/* Cores Analogas (violeta e vermelho arroxeado)*/
+/* body{
+    background-color: violet;
+}
+h1{
+    color: rgb(139, 28, 98);
+}
+h2{
+    color: rgb(139, 28, 98);
+}
+p{
+    color: rgb(139, 28, 98);
+}
+ul{
+    color: rgb(139, 28, 98);
+} */
+
+
+
+/* Cores Analogas (vermelho arroxeado e vermelho)*/
+/* body{
+    background-color: rgb(139, 28, 98);
+}
+h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+p{
+    color: red;
+}
+ul{
+    color: red;
+} */
+
+
+
+
+/* Cores Complementares (vermelho e verde*/
+/* body{
+    background-color: red;
+}
+h1{
+    color: green;
+}
+h2{
+    color: green;
+}
+p{
+    color: green;
+}
+ul{
+    color: green;
+} */
+
+
+
+/* Cores Complementares (vermelho alaranjado e azul esverdeado)*/
+/* body{
+    background-color: orangered;
+    text-align: justify;
+}
+h1{
+    color: rgb(0, 128, 128);
+}
+h2{
+    color: rgb(0, 128, 128);
+}
+p{
+    color: rgb(0, 128, 128);
+}
+ul{
+    color: rgb(0, 128, 128);
+} */
+
+
+
+/* Cores Complementares (laranja e azul)*/
+/* body{
+    background-color: orange;
+    text-align: justify;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: blue;
+}
+p{
+    color: blue;
+}
+ul{
+    color: blue;
+} */
+
+
+
+/* Cores Complementares (amarelo alaranjado e azul arroxeado)*/
+/* body{
+    background-color: rgb(225, 165, 0);
+    text-align: justify;
+}
+h1{
+    color: rgb(138, 43, 226);
+}
+h2{
+    color: rgb(138, 43, 226);
+}
+p{
+    color: rgb(138, 43, 226);
+}
+ul{
+    color: rgb(138, 43, 226);
+} */
+
+
+
+/* Cores Complementares (amarelo alaranjado e azul arroxeado)*/
+/* body{
+    background-color: rgb(225, 165, 0);
+    text-align: justify;
+}
+h1{
+    color: rgb(138, 43, 226);
+}
+h2{
+    color: rgb(138, 43, 226);
+}
+p{
+    color: rgb(138, 43, 226);
+}
+ul{
+    color: rgb(138, 43, 226);
+} */
+
+
+
+
+/* Cores Analogas Complementares(amarelo cor principal, amarelo alaranjado, amarelo esverdeado e violeta)*/
+/* body{
+    background-color: violet;
+    text-align: justify;
+}
+h1{
+    background-color: rgb(255, 165, 0);
+    color: yellow;
+}
+h2{
+    color: rgb(127, 255, 0);
+}
+p{
+    color: rgb(127, 255, 0);
+}
+ul{
+    color: rgb(127, 255, 0);
+} */
+
+
+
+/* Cores Analogas Complementares(amarelo esverdeado cor principal, amarelo, verde e vermelho arroxeado)*/
+/* body{
+    background-color: rgb(139, 28, 98);
+    text-align: justify;
+}
+h1{
+    background-color: rgb(127, 255, 0);
+    color: green;
+}
+h2{
+    color: yellow;
+}
+p{
+    color: rgb(127, 255, 0);
+}
+ul{
+    color: yellow;
+} */
+
+
+
+/* Cores Analogas Complementares(verde cor principal, amarelo esverdeado, azul esverdeado e vermelho)*/
+body{
+    background-color: rgb(127, 255, 0);
+    text-align: justify;
+}
+h1{
+    background-color: rgb(0, 128, 128);
+    color: red;
+}
+h2{
+    color: green;
+}
+p{
+    color: rgb(0, 128, 128);
+}
+ul{
+    color: rgb(0, 128, 128);
+}

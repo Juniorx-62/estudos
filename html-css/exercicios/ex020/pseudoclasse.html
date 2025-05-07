@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+
+        body {
+            background-image: linear-gradient(to top, #320E3B, #4C2A85, #6B7FD7, #F6F0ED);
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        div {
+            display: inline-block;
+            background-image: linear-gradient(to top, #6B7FD7 #F6F0ED);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: #4C2A85;
+        }
+
+        #link {
+            display:flex;
+            color: white;
+        }
+
+        .links-page2 {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 18px;
+            background-color: #4C2A85;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+    <a href="houver.html" id="link" class="links-page2">Segunda Pagina</a>
+</body>
+</html>

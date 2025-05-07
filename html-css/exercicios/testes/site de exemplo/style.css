@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('MinhaFonte-Bold.woff2') format('woff2');
+    font-weight: bold;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #E8EBFF, #F4E8FF, #B085F5);
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px #a079df;
+}
+
+h1 {
+    color: #4C2A85;
+    text-align: center;
+    text-shadow: 1px 1px 3px #432575
+}
+
+h2 {
+    color: #AB5FBC;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <hr>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador. &#x1F624</p>
+    <!-- <p>Você esta vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiencia! &#x1F624</p> -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem inicial"> <!--Essa sera a imagem que aparecera ao abrir a pagina! -->
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <hr>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midias/360-no-scope.mp3" type="audio/mpeg">
+        <p>caso o audio não esteja disponivel, se deve pelo motivo do seu computador não ser compativel <a href="midias/360-no-scope.mp3">clique aqui para download</a></p>
+    </audio>
+    <p></p>
+    <a href="pag002.html" target="_self" rel="next">Clique aqui para ir à proxima pagina</a>
+</body>
+</html>

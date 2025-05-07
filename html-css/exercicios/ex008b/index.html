@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras Formatações&#x2757;</h1>
+    <hr>
+    <h2>Código-fonte</h2>
+    <p>o comando <code>document.getelementByid('teste)</code> é escrito em luguagem JavaScripd.</p>
+    <p>o comando acima faz uso da tag &lt; code &gt; para efetuar uma fonte monoespaçada, tornando-o mais legível para representar código de programação.</p>
+    <pre>
+        <code>
+    import random
+    import string
+
+    def gerar_senha(tamanho=12):
+        caracteres = string.ascii_letters + string.digits + string.punctuation
+        senha = ''.join(random.choice(caracteres) for _ in range(tamanho))
+        return senha
+
+    # Exemplo de uso
+    print("Senha gerada:", gerar_senha())
+        </code>
+    </pre>
+    <h2>Citação Simples</h2>
+    <p>Citação de William Shakespeare <q>A si mesmo seja verdadeiro, e assim como a noite segue o dia, não poderás ser falso com ninguém</q>.</p>
+    <h2>Citações Completas</h2>
+    <p>Wikipedia de William shakespeare:</p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/William_Shakespeare">
+        William Shakespeare (Stratford-upon-Avon, 23 de abril de 1564 – Stratford-upon-Avon, 23 de abril de 1616)[a] foi um poeta, dramaturgo e ator inglês. Foi tido como o maior escritor do idioma inglês e considerado por muitos o maior dramaturgo da história.[2][3][4][5][6][7] É chamado frequentemente de poeta nacional da Inglaterra e de "Bardo do Avon" (ou simplesmente The Bard, "O Bardo"). De suas obras, incluindo aquelas em colaboração, restaram até os dias de hoje 38 peças,[b] 154 sonetos, dois longos poemas narrativos, e mais alguns versos esparsos, cujas autorias, no entanto, são ainda disputadas. Suas peças foram traduzidas para todas as principais línguas modernas e são mais encenadas que as de qualquer outro dramaturgo.[8] Muitos de seus textos e temas permanecem vivos até os nossos dias, sendo revisitados com frequência, especialmente no teatro, na televisão, no cinema e na literatura.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascadung Style Sheets">CSS</abbr>.</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl"><q>A si mesmo seja verdadeiro, e assim como a noite segue o dia, não poderás ser falso com ninguém</q></bdo>, esse é trecho de uma citação de William Shakespeare sera colocado de forma invertida para efeito de comparação com o paragrafo de (Citação Simples) acima  </p>
+</body>
+</html>
