@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testando imagens de fundo</title>
+        <style>
+
+            body {
+                background-image: url(imagens/wallpaper006.jpg);
+                text-align: center;
+            }
+
+            main {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                
+            }
+
+            nav {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            div.quadrado {
+                display: inline-block;
+                border: solid 2px black;
+                width: 200px;
+                height: 200px;
+                background-color: lightgray;
+            }
+
+            div#q1 {
+                background-color: lightblue;
+            }
+
+            div#q2 {
+                background-image: linear-gradient(to bottom, yellow, orange);
+            }
+
+            div#q3 {
+                background-image: url(imagens/pattern001.png);
+            }
+
+            footer {
+                margin-bottom: 0px;
+            }
+
+            footer a {
+                color: black;
+                text-decoration: none;
+                font-size: 1.5em;
+            }
+
+            footer a:hover {
+                background-color: black;
+                color: white;
+                padding: 5px;
+                margin: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <main>
+            <nav>
+                <div class="quadrado" id="q1">
+                </div>
+                <div class="quadrado" id="q1">
+            
+                </div>
+                <div class="quadrado" id="q1">
+            
+                </div>
+            </nav>
+            <nav>
+                <div class="quadrado" id="q2">
+                </div>
+                <div class="quadrado" id="q2">
+            
+                </div>
+                <div class="quadrado" id="q2">
+            
+                </div>
+            </nav>
+            <nav>
+                <div class="quadrado" id="q3">
+                </div>
+                <div class="quadrado" id="q3">
+            
+                </div>
+                <div class="quadrado" id="q3">
+            
+                </div>
+            </nav>
+        </main>
+
+        <footer>
+            <a href="fonte001.html">Pagina de exercicio!</a>
+        </footer>
+    </body>
+</html>
