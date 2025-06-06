@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        h1 {
+            margin: 0px 0px 30px 0px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 450px;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(100, 100, 100);
+            color: white;
+            border-radius: 5px;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            bottom: -1px;
+            background-color: rgb(100, 100, 100);
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        tbody tr:nth-child(even) { /* ou (n2)*/
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) { /* ou (n2-1)*/
+            background-color: white; /* Não é precisso colocar branco ser for o caso do fundo ja ser branco */
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        .pop {
+            width: 50px;
+        }
+
+    </style>
+    </head>
+
+    <body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>Unidade federativa do Brasil por população</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" class="pop">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45.973.194</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.322.691</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.219.679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.850.513</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.824.665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.229.915</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.539.029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.233.656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.664.306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8.058.441</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.350.483</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7.010.960</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.281.209</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.145.040</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4.102.129</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.836.399</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.446.071</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.375.646</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.220.104</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2.982.818</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.901.895</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.291.077</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.746.227</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.577.342</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">880.631</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">802.837</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">716.793</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de habitantes</th>
+                    <td class="num">212.583.750</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+    
+            <p>Diante do cenário atual, cuja complexidade é evidente e inegável, torna-se cada vez mais imprescindível refletir, com cautela e profundidade, sobre os múltiplos desdobramentos que advêm das mais diversas interações humanas, sociais, tecnológicas e até mesmo filosóficas. Em um mundo marcado por constantes transformações e dinâmicas ininterruptas, a relevância de se pensar de maneira estratégica e ao mesmo tempo abrangente se apresenta como uma exigência inexorável dos tempos modernos.</p>
+
+            <p>Sob essa perspectiva, é válido ressaltar que não se pode subestimar a importância dos processos de análise, avaliação e reavaliação contínuos. Ainda que muitas vezes tais ações possam parecer excessivamente minuciosas ou até mesmo repetitivas, é justamente nelas que se encontra a base sólida sobre a qual se constroem decisões fundamentadas, coerentes e potencialmente eficazes. Nesse contexto, a interdisciplinaridade, tão amplamente debatida nos círculos acadêmicos e profissionais, assume um papel de protagonismo, promovendo uma fusão entre saberes que, por sua vez, gera novas formas de pensar e agir.</p>
+
+            <p>Ademais, é crucial compreender que toda iniciativa, por menor que seja, carrega consigo um potencial transformador que não deve ser subestimado. Mesmo os detalhes mais aparentemente insignificantes podem exercer um papel determinante quando analisados à luz de uma perspectiva mais ampla e integrada. Por isso, antes de se tomar qualquer decisão definitiva, convém considerar todos os fatores envolvidos, suas possíveis implicações diretas e indiretas, bem como os riscos e oportunidades que deles possam emergir.
+            </p>
+            
+            <p>Cabe, portanto, ressaltar que, embora este texto não pretenda oferecer respostas definitivas, ele se propõe a fomentar um espaço de reflexão contínua, baseado em princípios de razoabilidade, ponderação e abertura para o diálogo. É nessa via de construção discursiva que se torna possível vislumbrar alternativas inovadoras para questões que, muitas vezes, parecem insolúveis à primeira vista.</p>
+
+            <p>Não obstante, é de suma importância reconhecer que a repetição de ideias — ainda que sob diferentes roupagens linguísticas — pode contribuir para o reforço conceitual de determinados tópicos, oferecendo ao leitor uma sensação de familiaridade e, ao mesmo tempo, de aprofundamento. Isso se justifica, sobretudo, pela necessidade de se reiterar aquilo que, mesmo já dito, merece ser enfatizado por seu valor simbólico e prático.</p>
+
+            <p>e analítico diante das múltiplas camadas que compõem a realidade. Tal postura não apenas amplia o horizonte interpretativo, como também fortalece a capacidade de adaptação frente aos constantes desafios que surgem. Afinal, é no exercício contínuo da observação atenta e da escuta sensível que reside a chave para uma atuação mais consciente, colaborativa e, acima de tudo, significativa no contexto atual.</p>
+
+            <p>Em última instância, o que se propõe aqui não é uma conclusão, mas sim um convite à continuidade do pensamento. Pois, como bem se sabe, cada fim é, na verdade, o começo de uma nova possibilidade de interpretação, análise e, por que não, reinvenção.</p>
+    </body>
+    </html>
